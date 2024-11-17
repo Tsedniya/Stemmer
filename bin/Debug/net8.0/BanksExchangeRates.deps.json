@@ -1,0 +1,94 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BanksExchangeRates/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.62",
+          "HtmlAgilityPack.CssSelectors": "1.0.2",
+          "Microsoft.AspNet.SignalR.Client": "2.4.3"
+        },
+        "runtime": {
+          "BanksExchangeRates.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.62": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.62.0",
+            "fileVersion": "1.11.62.0"
+          }
+        }
+      },
+      "HtmlAgilityPack.CssSelectors/1.0.2": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.62"
+        },
+        "runtime": {
+          "lib/net45/HtmlAgilityPack.CssSelectors.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.SignalR.Client/2.4.3": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNet.SignalR.Client.dll": {
+            "assemblyVersion": "2.4.3.0",
+            "fileVersion": "2.4.3.22014"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BanksExchangeRates/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.62": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KS4h7ZjWsO6YixRfQgYdR+PZMbTaZod1LBPi+1Ph7dJCARzQm7DOKe5HPhP/o0EWX5l7QCgAZHa4VOa4pQa8JQ==",
+      "path": "htmlagilitypack/1.11.62",
+      "hashPath": "htmlagilitypack.1.11.62.nupkg.sha512"
+    },
+    "HtmlAgilityPack.CssSelectors/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bB4FeVvcNROENPWQfFSmPQ6q99jGk8ru5QoBB3qnEeaP451fjnqQ0uPuMgmWHAOZIXUAoOQozv/5fEEVSDyIzA==",
+      "path": "htmlagilitypack.cssselectors/1.0.2",
+      "hashPath": "htmlagilitypack.cssselectors.1.0.2.nupkg.sha512"
+    },
+    "Microsoft.AspNet.SignalR.Client/2.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W+sWtcEUG4Z2Ea+tLZs4n8SVjpVU/7MSb6TrfJ9/AVdQ0Yu75vaDWzbIvjk1TvoqdyQldrpsWXRyHtGU/jHtiQ==",
+      "path": "microsoft.aspnet.signalr.client/2.4.3",
+      "hashPath": "microsoft.aspnet.signalr.client.2.4.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    }
+  }
+}
